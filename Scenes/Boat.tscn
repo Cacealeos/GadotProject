@@ -1,16 +1,15 @@
 [gd_scene load_steps=3 format=3 uid="uid://cniy14tryo7jx"]
 
 [ext_resource type="Script" path="res://Scripts/Boat.cs" id="1_0jtcd"]
-[ext_resource type="Texture2D" uid="uid://b6m7ynpxe401v" path="res://Assets/Sprites/boat.png" id="1_bxj8f"]
+[ext_resource type="Texture2D" uid="uid://du4m63kb2fxkb" path="res://Assets/boat-removebg-preview.png" id="2_mk7c5"]
 
 [node name="Boat" type="AnimatableBody2D"]
 script = ExtResource("1_0jtcd")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("1_bxj8f")
+texture = ExtResource("2_mk7c5")
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
-visible = false
 position = Vector2(-260.188, -57)
 scale = Vector2(0.9375, 1)
-polygon = PackedVector2Array(-5.13333, -6, 52.4667, 48, 501.533, 48, 560.2, -6, 561.267, 118, -5.13333, 118)
+polygon = PackedVector2Array(164.467, 20, 381.001, 20, 369.267, 61, 333.001, 99, 271.134, 114, 210.334, 96, 171.934, 52)
